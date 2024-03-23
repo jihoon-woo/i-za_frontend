@@ -1,0 +1,63 @@
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.main_container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_container {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle_progress {
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+}
+
+.circle_progress_img {
+    height: 200px;
+    margin: 10px;
+}
+.circle_progress_word {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    font-family: "NanumSquare Neo OTF";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.68px;
+}
+
+.circle_progress_word_strong {
+    color: #F32E69;
+    font-family: "NanumSquare Neo OTF";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.68px;
+}
+
+.date_line {
+    display: flex;
+    height: 10%;
+}
+
+.mission_container {
+    display: flex;
+    height: 60%;
+}
